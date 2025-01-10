@@ -5,7 +5,7 @@ import requests
 
 
 def textToSpeech(text='hello man'):
-    headers = {"Authorization": f"Bearer "}
+    headers = {"Authorization": f"Bearer <KAY>"}
     url = "https://api.edenai.run/v2/audio/text_to_speech"
 
     payload = {
